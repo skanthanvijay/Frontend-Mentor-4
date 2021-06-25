@@ -1,0 +1,114 @@
+/* CSS Elements */
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+}
+
+h2, h3, h4, h5 {
+  font-weight: 700;
+}
+
+
+/* Bootstrap Class Edits */
+
+.row {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+/* All Sections */
+
+.main-container {
+  padding: 20% 10%;
+}
+
+.section {
+  padding: 30px;
+}
+
+
+/* Intro Section */
+
+.intro {
+  background-color: white;
+}
+
+.i-h3 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+}
+
+.i-h5 {
+  color: hsl(71, 73%, 54%);
+}
+
+.intro p {
+  color: hsl(218, 22%, 67%);
+}
+
+
+/* Pricing Section */
+
+.pricing {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+}
+
+.price-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.price-text {
+  position: relative;
+  bottom: 7px;
+  left: 10px;
+  color: hsl(204, 43%, 93%);
+}
+
+.pricing button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.button-text {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+
+/* Benefits Section */
+
+.benefits {
+  background-color: hsl(179, 40%, 61%);
+  color: white;
+  line-height: 1.5;
+}
+
+.benefits p {
+  margin-bottom: 0;
+  color: hsl(204, 43%, 93%);
+}
+
+
+
+/* Media Query for Desktop */
+
+@media (min-width: 576px) {
+
+  .main-container {
+    padding: 6.2% 25%;
+  }
+
+  .section {
+    padding: 40px;
+  }
+
+  .benefits {
+    line-height: 1.35;
+  }
+}
